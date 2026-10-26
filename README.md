@@ -2,11 +2,11 @@
 this is a python program to find factorial of any number 
 # Factorial Calculator
 
-A simple Python program that calculates the factorial of a non-negative integer.
+A Python program that calculates the factorial of a non-negative integer.
 
 ## Description
 
-This project provides a lightweight command-line tool for computing factorials. The `factorial.py` script prompts the user for a number, validates the input, and prints the result. It is a clean, beginner-friendly example of iterative problem solving in Python.
+`factorial.py` prompts the user for a number and prints its factorial.
 
 The factorial of a non-negative integer `n`, written `n!`, is the product of all positive integers less than or equal to `n`:
 
@@ -18,10 +18,10 @@ By definition, `0! = 1`.
 
 ## Features
 
-- Calculates the factorial of any non-negative integer
+- Calculates the factorial of a non-negative integer
 - Iterative implementation (no recursion depth limits)
-- Handles negative input with a clear message
-- Works with arbitrarily large numbers thanks to Python's big integers
+- Shows a message for negative input
+- Supports very large results using Python's built-in big integers
 - No external dependencies
 
 ## Requirements
@@ -52,15 +52,7 @@ Run the script from your terminal:
 python factorial.py
 ```
 
-When prompted, enter a non-negative integer and the program will print its factorial.
-
-The function can also be imported into other Python code:
-
-```python
-from factorial import factorial
-
-print(factorial(5))  # 120
-```
+Enter a whole number when prompted. The program prints its factorial.
 
 ## Example
 
@@ -88,13 +80,5 @@ Enter a number: -3
 .
 ├── factorial.py
 ├── README.md
-└── LICENSE
+└── audit.md
 ```
-
-## Contributing
-
-Contributions, issues, and feature requests are welcome. Feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
